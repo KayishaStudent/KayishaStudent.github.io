@@ -1,4 +1,9 @@
+* {
+  font-family: "Poppins";
+}
+
 body {
+  font-family: "Poppins";
   background-color: #181616;
   color: rgb(185, 107, 185);
   font-family: "Century Gothic", sans-serif;
