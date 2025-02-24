@@ -10,6 +10,7 @@ h1 {
   font-size: 2em;
   font-weight: bold;
   color: #fff;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -18,6 +19,12 @@ h2 {
   border-bottom: 2px solid #ccc;
   display: inline-block;
   padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: rgb(109, 28, 156);
 }
 
 .elegant-box {
@@ -50,7 +57,10 @@ img {
   border: #413f3f inset 1px;
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.1);
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.1);
+}
+article {
+  margin: 20px;
 }
 
 a {
@@ -59,7 +69,7 @@ a {
   text-decoration: none;
   color: white;
   border-radius: 20px;
-  box-shadow: rgb(255, 255, 255, 0.5);
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.1);
 }
 
 a:hover {
